@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>InfoShare demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loader.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="center">
+            <div class="lds-heart"><div></div></div>
+            <div>Loading...</div>
+        </div>
+    </div>
+    <div class="center" id="error">
+        <div>Something went wrong...</div>
+    </div>
+    <div id="content">
+        <div>
+            <span class="custom-dropdown big">
+                <select id="usersDropdown">
+                    <option hidden disabled selected> -- select an option -- </option>
+                </select>
+            </span>
+        </div>
+        <div id="form">
+            <div class="form-row">
+                <label>Name:</label>
+                <label id="name"></label>
+            </div>
+            <div class="form-row">
+                <label>Job title: </label>
+                <label id="jobTitle"></label>
+            </div>
+            <div class="form-row">
+                <label>About:</label>
+                <label id="about"></label>
+            </div>
+            <div class="form-row">
+                <label>Age:</label>
+                <label id="age"></label>
+            </div>
+            <div class="form-row">
+                <label>Email:</label>
+                <label id="email"></label>
+            </div>
+        </div>
+        <div id="avatar">
+
+        </div>
+    </div>
+</body>
+</html>
+<script src="main.js"></script>
